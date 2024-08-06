@@ -57,6 +57,12 @@ class _NewPageState extends State<NewPage> {
                       child: Text("Nutritions",style: TextStyle(fontSize: 22,
                         fontWeight: FontWeight.bold),),
                     ),
+
+
+
+
+
+                    
                       Positioned(
                         right: -100,
                         child: Padding(
