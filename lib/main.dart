@@ -87,14 +87,40 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     SizedBox(width: width*0.02,),
                       Container(height: height*0.01,width: width*0.2,
-                    decoration: BoxDecoration(color: Colors.green,
+                    decoration: BoxDecoration(color: Colors.white,
                       borderRadius: BorderRadius.all(Radius.circular(25))),
                       child: Row(
                         children: [
                           SizedBox(width: width*0.03,),
-                          Icon(Icons.coffee),
+                          Icon(Icons.food_bank),
                           SizedBox(width: width*0.01,),
-                          Text("Rice",style: TextStyle(color: Colors.white),)
+                          Text("Rice",)
+                        ],
+                      ),
+                    ),
+                    SizedBox(width: width*0.02,),
+                      Container(height: height*0.01,width: width*0.2,
+                    decoration: BoxDecoration(color: Colors.white,
+                      borderRadius: BorderRadius.all(Radius.circular(25))),
+                      child: Row(
+                        children: [
+                          SizedBox(width: width*0.03,),
+                          Icon(Icons.restaurant),
+                          SizedBox(width: width*0.01,),
+                          Text("Salad",style: TextStyle(color: Colors.black),)
+                        ],
+                      ),
+                    ),
+                    SizedBox(width: width*0.02,),
+                      Container(height: height*0.01,width: width*0.2,
+                    decoration: BoxDecoration(color: Colors.white,
+                      borderRadius: BorderRadius.all(Radius.circular(25))),
+                      child: Row(
+                        children: [
+                          SizedBox(width: width*0.03,),
+                          Icon(Icons.local_dining),
+                          SizedBox(width: width*0.01,),
+                          Text("Fruit",)
                         ],
                       ),
                     ),
@@ -107,33 +133,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           SizedBox(width: width*0.03,),
                           Icon(Icons.coffee),
                           SizedBox(width: width*0.01,),
-                          Text("Rice",style: TextStyle(color: Colors.black),)
-                        ],
-                      ),
-                    ),
-                    SizedBox(width: width*0.02,),
-                      Container(height: height*0.01,width: width*0.2,
-                    decoration: BoxDecoration(color: Colors.green,
-                      borderRadius: BorderRadius.all(Radius.circular(25))),
-                      child: Row(
-                        children: [
-                          SizedBox(width: width*0.03,),
-                          Icon(Icons.coffee),
-                          SizedBox(width: width*0.01,),
-                          Text("Rice",style: TextStyle(color: Colors.white),)
-                        ],
-                      ),
-                    ),
-                    SizedBox(width: width*0.02,),
-                      Container(height: height*0.01,width: width*0.2,
-                    decoration: BoxDecoration(color: Colors.green,
-                      borderRadius: BorderRadius.all(Radius.circular(25))),
-                      child: Row(
-                        children: [
-                          SizedBox(width: width*0.03,),
-                          Icon(Icons.coffee),
-                          SizedBox(width: width*0.01,),
-                          Text("Rice",style: TextStyle(color: Colors.white),)
+                          Text("Fast",)
                         ],
                       ),
             
@@ -165,7 +165,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Padding(
                             padding: const EdgeInsets.only(right: 38),
                             child: 
-                            Text("   Chicken Fried ...",style: TextStyle(fontSize: 18,
+                            Text("Plutter Dish ...",style: TextStyle(fontSize: 18,
                               fontWeight: FontWeight.bold),),
                           ),
                         Padding(
@@ -175,7 +175,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                           
                         ),
-                        SizedBox(height: height*0.006,),
+                        SizedBox(height: height*0.01,),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
@@ -203,7 +203,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           SizedBox(height: height*0.02,),
                           CircleAvatar(
                             radius: 78,
-                            backgroundImage: AssetImage("images/food.jpg"),
+                            backgroundImage: AssetImage("images/meat.jpg"),
                           ),
                           SizedBox(height: height*0.01,),
                           Padding(
@@ -219,14 +219,14 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                           
                         ),
-                        SizedBox(height: height*0.006,),
+                        SizedBox(height: height*0.01,),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                          
                             Padding(
                               padding: const EdgeInsets.only(right: 57),
-                              child: Text("250 kcal",style: TextStyle(fontWeight: FontWeight.bold),),
+                              child: Text("120 kcal",style: TextStyle(fontWeight: FontWeight.bold),),
                             ),
                             
                             Icon(Icons.favorite_outline_outlined)
@@ -247,13 +247,13 @@ class _MyHomePageState extends State<MyHomePage> {
                           SizedBox(height: height*0.02,),
                           CircleAvatar(
                             radius: 78,
-                            backgroundImage: AssetImage("images/food.jpg"),
+                            backgroundImage: AssetImage("images/bir.jpg"),
                           ),
                           SizedBox(height: height*0.01,),
                           Padding(
                             padding: const EdgeInsets.only(right: 38),
                             child: 
-                            Text("   Chicken Fried ...",style: TextStyle(fontSize: 18,
+                            Text(" Biryani Fried ...",style: TextStyle(fontSize: 18,
                               fontWeight: FontWeight.bold),),
                           ),
                         Padding(
@@ -263,14 +263,14 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                           
                         ),
-                        SizedBox(height: height*0.006,),
+                        SizedBox(height: height*0.01,),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                          
                             Padding(
                               padding: const EdgeInsets.only(right: 57),
-                              child: Text("250 kcal",style: TextStyle(fontWeight: FontWeight.bold),),
+                              child: Text("115 kcal",style: TextStyle(fontWeight: FontWeight.bold),),
                             ),
                             
                             Icon(Icons.favorite_outline_outlined)
@@ -291,13 +291,13 @@ class _MyHomePageState extends State<MyHomePage> {
                           SizedBox(height: height*0.02,),
                           CircleAvatar(
                             radius: 78,
-                            backgroundImage: AssetImage("images/food.jpg"),
+                            backgroundImage: AssetImage("images/creamy.jpg"),
                           ),
                           SizedBox(height: height*0.01,),
                           Padding(
                             padding: const EdgeInsets.only(right: 38),
                             child: 
-                            Text("   Chicken Fried ...",style: TextStyle(fontSize: 18,
+                            Text("   Creamy  Fried ...",style: TextStyle(fontSize: 18,
                               fontWeight: FontWeight.bold),),
                           ),
                         Padding(
@@ -307,7 +307,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                           
                         ),
-                        SizedBox(height: height*0.006,),
+                        SizedBox(height: height*0.01,),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [

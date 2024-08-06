@@ -57,29 +57,17 @@ class _NewPageState extends State<NewPage> {
                       child: Text("Nutritions",style: TextStyle(fontSize: 22,
                         fontWeight: FontWeight.bold),),
                     ),
-
-
-
-
-
-                    
-                      Positioned(
-                        right: -100,
-                        child: Padding(
-                          padding: const EdgeInsets.only(top:4,left: 180),
-                          child:Container(height: 273,width: 400,
-                          decoration: BoxDecoration(shape: BoxShape.circle,
-                            color: Colors.yellow,
-                            image: DecorationImage(
-                              image: AssetImage("images/creamy.jpg"),fit: BoxFit.cover),
-                            ),
-                           
-                          ),
+                Positioned(
+                        right: -50,
+                        top: 4,
+                        child: CircleAvatar(
+                          radius: 143,
+                          backgroundImage: AssetImage("images/meat.jpg"),
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 75,left: 6),
-                        child: Container(height: 50,width: 150,
+                        padding: const EdgeInsets.only(top: 65,left: 6),
+                        child: Container(height: height*0.06,width: width*0.33,
                         decoration: BoxDecoration(  
                           color: Color.fromARGB(255, 223, 216, 216),
                           borderRadius: BorderRadius.all(Radius.circular(25))),
@@ -105,8 +93,8 @@ class _NewPageState extends State<NewPage> {
                   ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 135,left: 6),
-                        child: Container(height: 50,width: 150,
+                        padding: const EdgeInsets.only(top: 137,left: 6),
+                        child: Container(height: height*0.06,width: width*0.33,
                         decoration: BoxDecoration(  
                          color: Color.fromARGB(255, 223, 216, 216),
                           borderRadius: BorderRadius.all(Radius.circular(25))),
@@ -114,7 +102,7 @@ class _NewPageState extends State<NewPage> {
                             children: [
                               Container(height: 40,width: 55,
                               child: Center(child: 
-                              Text("190",style: TextStyle(fontWeight: FontWeight.bold),)),
+                              Text("105",style: TextStyle(fontWeight: FontWeight.bold),)),
                               decoration: BoxDecoration(color: Colors.white,
                               shape: BoxShape.circle),
                               
@@ -132,8 +120,8 @@ class _NewPageState extends State<NewPage> {
                   ),
                       ),
                        Padding(
-                        padding: const EdgeInsets.only(top: 200,left: 6),
-                        child: Container(height: 50,width: 150,
+                        padding: const EdgeInsets.only(top: 207,left: 6),
+                        child: Container(height: height*0.06,width: width*0.33,
                         decoration: BoxDecoration( 
                            color: Color.fromARGB(255, 223, 216, 216),
                           borderRadius: BorderRadius.all(Radius.circular(25))),
@@ -141,7 +129,7 @@ class _NewPageState extends State<NewPage> {
                             children: [
                               Container(height: 40,width: 55,
                               child: Center(child: 
-                              Text("190",style: TextStyle(fontWeight: FontWeight.bold),)),
+                              Text("120",style: TextStyle(fontWeight: FontWeight.bold),)),
                               decoration: BoxDecoration(color: Colors.white,
                               shape: BoxShape.circle),
                               
@@ -159,9 +147,57 @@ class _NewPageState extends State<NewPage> {
                   ),
                       ),
 
+
                   ],
                 ),
+
                 ),
+                Text("Ingredients",
+                style: TextStyle(fontSize: 25,
+                fontWeight: FontWeight.bold),),
+                SizedBox(height: height*0.003,),
+                Text(" 2 cups pecans, divided",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 1 tablespoon unsalted butter, melted",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 1/4 teaspoon kosher salt, plus more",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 2 tablespoon Qouram masla",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 2 cups pecans, divided",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 1/4 cups vigine, divided",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 2 spoons capsicum , divided",
+                style: TextStyle(
+                color: Colors.grey),),
+                 SizedBox(height: height*0.003,),
+                 Text(" 1/2 spoons green chilli, divided",
+                style: TextStyle(
+                color: Colors.grey),),
+                SizedBox(height: height*0.02,),
+                Text("Recipi Preparation",
+                style: TextStyle(fontSize: 22,
+                fontWeight: FontWeight.bold),),
+                Text("Step 1",style: TextStyle(
+                  color: Colors.grey),),
+                  Text("Take a one handi ",style: TextStyle(
+                    color: Colors.grey),),
+                    Text(" And Put a 2kg Oil in handi for fry the Meat",
+                    style: TextStyle(color: Colors.grey),),
+
               ],
             ),
           ),
